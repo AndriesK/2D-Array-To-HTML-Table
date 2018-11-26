@@ -1,0 +1,23 @@
+{
+  "name": "computer-store-vanilla",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "rxjs": "^6.3.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "ts-loader": "^5.0.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  }
+}
